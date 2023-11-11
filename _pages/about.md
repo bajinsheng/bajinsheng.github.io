@@ -7,6 +7,7 @@ subtitle: Singapore
 profile:
   align: right
   image: Photo.jpg
+  image_hover: Photo_hover.jpg
   image_cicular: false # crops the image to make it circular
   address: >
 #    <p>555 your office number</p>
