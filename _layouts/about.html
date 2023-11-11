@@ -24,9 +24,9 @@ layout: default
               {% endif %}
 
               {% if page.profile.image_hover %}
-              {%- assign profile_image_path_hover = page.profile.image_hover | prepend: 'assets/img/' -%}
+              {%- assign profile_image_hover_path = page.profile.image_hover | prepend: 'assets/img/' -%}
               {% else %}
-              {%- assign profile_image_path_hover = page.profile.image | prepend: 'assets/img/' -%}
+              {%- assign profile_image_hover_path = page.profile.image | prepend: 'assets/img/' -%}
               {% endif %}
 
               {% include figure.html 
