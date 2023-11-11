@@ -13,7 +13,8 @@
     <img 
     {% if include.class %}class="{{ include.class }}"{% endif %} 
     src="{{ include.path | relative_url }}" 
-    {% if include.path_hover %}onmouseover="this.src='{{ include.path_hover }}'"{% endif %}
+    {% if include.path_hover %}onmouseover="this.src='{{ include.path_hover | relative_url  }}'"{% endif %}
+    {% if include.path_hover %}onmouseout="this.src='{{ include.path | relative_url  }}'"{% endif %}
     {% if include.width %}width="{{ include.width }}"{% else %}width="auto"{% endif %} 
     {% if include.height %}height="{{ include.height }}"{% else %}height="auto"{% endif %} 
     {% if include.min-width %}min-width="{{ include.min-width }}"{% endif %} 
