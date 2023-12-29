@@ -4,4 +4,4 @@ date: 2023-10-10
 inline: true
 ---
 
-Our paper `Finding Performance Issues in Database Engines via Cardinality Estimation Testing` was accepted at ICSE'24!
+Our paper `CERT: Finding Performance Issues in Database Systems Through the Lens of Cardinality Estimation` was accepted at ICSE'24!
