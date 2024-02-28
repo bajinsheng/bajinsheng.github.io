@@ -101,8 +101,8 @@ nav_order: 2
 </div>
 
 <div class="container">
-	<h2>Database Management Systems (92 bugs)</h2>
-	<h3>CockroachDB (25 bugs)</h3>
+	<h2>Database Management Systems (122 bugs)</h2>
+	<h3>CockroachDB (28 bugs)</h3>
 		<details>
 			<summary>sql: support SCRUB on temp tables</summary>
 			Link: <a href="https://github.com/cockroachdb/cockroach/issues/83770">https://github.com/cockroachdb/cockroach/issues/83770</a> <br />
@@ -203,12 +203,57 @@ nav_order: 2
 			<summary>ERROR: internal error: expected *DInt, found tree.dNull</summary>
 			Link: <a href="https://github.com/cockroachdb/cockroach/issues/94264">https://github.com/cockroachdb/cockroach/issues/94264</a> <br />
 		</details>
+		<details>
+			<summary>Integer Overflow with Index Hints</summary>
+			Link: <a href="https://github.com/cockroachdb/cockroach/issues/110409">https://github.com/cockroachdb/cockroach/issues/110409</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Error: overflow during Encode</summary>
+			Link: <a href="https://github.com/cockroachdb/cockroach/issues/111473">https://github.com/cockroachdb/cockroach/issues/111473</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Error for ascii()</summary>
+			Link: <a href="https://github.com/cockroachdb/cockroach/issues/111474">https://github.com/cockroachdb/cockroach/issues/111474</a> <br />
+		</details>
 	<h3>DuckDB (1 bugs)</h3>
 		<details>
 			<summary>Crash When Creating Index</summary>
 			Link: <a href="https://github.com/duckdb/duckdb/issues/4976">https://github.com/duckdb/duckdb/issues/4976</a> <br />
 		</details>
-	<h3>MySQL (4 bugs)</h3>
+	<h3>MariaDB (8 bugs)</h3>
+		<details>
+			<summary>Unexpected Result by not_null_range_scan</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-32076">https://jira.mariadb.org/browse/MDEV-32076</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by optimize_join_buffer_size</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-32099">https://jira.mariadb.org/browse/MDEV-32099</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by join_cache_hashed</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-32105">https://jira.mariadb.org/browse/MDEV-32105</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by outer_join_with_cache</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-32106">https://jira.mariadb.org/browse/MDEV-32106</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by table_elimination</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-32107">https://jira.mariadb.org/browse/MDEV-32107</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by join_cache_incremental</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-32108">https://jira.mariadb.org/browse/MDEV-32108</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by mrr</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-32143">https://jira.mariadb.org/browse/MDEV-32143</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by join_cache_bka</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-32186">https://jira.mariadb.org/browse/MDEV-32186</a> <br />
+		</details>
+	<h3>MySQL (9 bugs)</h3>
 		<details>
 			<summary>Suspicious Estimated Rows</summary>
 			Link: <a href="https://bugs.mysql.com/bug.php?id=108833">https://bugs.mysql.com/bug.php?id=108833</a> <br />
@@ -224,6 +269,26 @@ nav_order: 2
 		<details>
 			<summary>Unexpected Error: Memory capacity exceeded</summary>
 			Link: <a href="https://bugs.mysql.com/bug.php?id=111471">https://bugs.mysql.com/bug.php?id=111471</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by subquery_to_derived</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=112243">https://bugs.mysql.com/bug.php?id=112243</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by use_invisible_indexes</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=112242">https://bugs.mysql.com/bug.php?id=112242</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by block_nested_loop</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=112264">https://bugs.mysql.com/bug.php?id=112264</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by the hint JOIN_ORDER</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=112269">https://bugs.mysql.com/bug.php?id=112269</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by NO_BNL</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=112296">https://bugs.mysql.com/bug.php?id=112296</a> <br />
 		</details>
 	<h3>SQLite (28 bugs)</h3>
 		<details>
@@ -338,7 +403,7 @@ nav_order: 2
 			<summary>Assertion `pRec->nField>0 && pRec->nField<=pIdx->nSampleCol' failed.</summary>
 			Link: <a href="https://sqlite.org/forum/forumpost/3607259d3c">https://sqlite.org/forum/forumpost/3607259d3c</a> <br />
 		</details>
-	<h3>TiDB (34 bugs)</h3>
+	<h3>TiDB (48 bugs)</h3>
 		<details>
 			<summary>incorrect unresolved column when using natural join</summary>
 			Link: <a href="https://github.com/pingcap/tidb/issues/35522">https://github.com/pingcap/tidb/issues/35522</a> <br />
@@ -474,5 +539,61 @@ nav_order: 2
 		<details>
 			<summary>runtime error: index out of range [7] with length 4</summary>
 			Link: <a href="https://github.com/pingcap/tidb/issues/44747">https://github.com/pingcap/tidb/issues/44747</a> <br />
+		</details>
+		<details>
+			<summary>runtime error: index out of range [0] with length 0</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/46535">https://github.com/pingcap/tidb/issues/46535</a> <br />
+		</details>
+		<details>
+			<summary>ERROR 1690: overflows float</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/46538">https://github.com/pingcap/tidb/issues/46538</a> <br />
+		</details>
+		<details>
+			<summary>ERROR 1105 (HY000): interface conversion</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/46556">https://github.com/pingcap/tidb/issues/46556</a> <br />
+		</details>
+		<details>
+			<summary>Uncertain Results by MERGE_JOIN</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/46580">https://github.com/pingcap/tidb/issues/46580</a> <br />
+		</details>
+		<details>
+			<summary>Error For MPP Stream</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/46598">https://github.com/pingcap/tidb/issues/46598</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Results in TiFlash</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/46599">https://github.com/pingcap/tidb/issues/46599</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Results in TiFlash 2</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/46601">https://github.com/pingcap/tidb/issues/46601</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Results by the hint USE_INDEX in TiFlash</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/47019">https://github.com/pingcap/tidb/issues/47019</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by BROADCAST_JOIN in TiFlash</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/47020">https://github.com/pingcap/tidb/issues/47020</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result in TiFlash 3</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/47286">https://github.com/pingcap/tidb/issues/47286</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by MERGE_JOIN</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/47345">https://github.com/pingcap/tidb/issues/47345</a> <br />
+		</details>
+		<details>
+			<summary>ERROR 1105 encoding failed</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/47346">https://github.com/pingcap/tidb/issues/47346</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Error Lost Connection</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/47347">https://github.com/pingcap/tidb/issues/47347</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Error Overflow</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/47348">https://github.com/pingcap/tidb/issues/47348</a> <br />
 		</details>
 </div>

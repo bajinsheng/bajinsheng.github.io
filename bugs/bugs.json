@@ -218,11 +218,12 @@
         "url": "https://github.com/cockroachdb/cockroach/issues/83874",
         "title": "ERROR: no builtin aggregate for SUM_INT on [unknown]",
         "created_at": "06/07/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "CockroachDB",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "closed_at": "02/01/2024"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/83965",
@@ -867,6 +868,284 @@
         "title": "ERROR: internal error: expected *DInt, found tree.dNull",
         "created_at": "24/12/2022",
         "closed_at": "12/01/2023",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=112243",
+        "title": "Unexpected Result by subquery_to_derived",
+        "created_at": "04/09/2023",
+        "state": "verified",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=112242",
+        "title": "Unexpected Result by use_invisible_indexes",
+        "created_at": "04/09/2023",
+        "state": "verified",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=112264",
+        "title": "Unexpected Result by block_nested_loop",
+        "created_at": "04/09/2023",
+        "state": "verified",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=112269",
+        "title": "Unexpected Result by the hint JOIN_ORDER",
+        "created_at": "06/09/2023",
+        "state": "verified",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=112296",
+        "title": "Unexpected Result by NO_BNL",
+        "created_at": "08/09/2023",
+        "state": "verified",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://jira.mariadb.org/browse/MDEV-32076",
+        "title": "Unexpected Result by not_null_range_scan",
+        "created_at": "03/09/2023",
+        "state": "confirmed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MariaDB"
+    },
+    {
+        "url": "https://jira.mariadb.org/browse/MDEV-32099",
+        "title": "Unexpected Result by optimize_join_buffer_size",
+        "created_at": "05/09/2023",
+        "state": "confirmed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MariaDB"
+    },
+    {
+        "url": "https://jira.mariadb.org/browse/MDEV-32105",
+        "title": "Unexpected Result by join_cache_hashed",
+        "created_at": "06/09/2023",
+        "state": "confirmed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MariaDB"
+    },
+    {
+        "url": "https://jira.mariadb.org/browse/MDEV-32106",
+        "title": "Unexpected Result by outer_join_with_cache",
+        "created_at": "03/09/2023",
+        "state": "confirmed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MariaDB"
+    },
+    {
+        "url": "https://jira.mariadb.org/browse/MDEV-32107",
+        "title": "Unexpected Result by table_elimination",
+        "created_at": "06/09/2023",
+        "state": "confirmed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MariaDB"
+    },
+    {
+        "url": "https://jira.mariadb.org/browse/MDEV-32108",
+        "title": "Unexpected Result by join_cache_incremental",
+        "created_at": "03/09/2023",
+        "state": "confirmed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MariaDB"
+    },
+    {
+        "url": "https://jira.mariadb.org/browse/MDEV-32143",
+        "title": "Unexpected Result by mrr",
+        "created_at": "11/09/2023",
+        "state": "confirmed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MariaDB"
+    },
+    {
+        "url": "https://jira.mariadb.org/browse/MDEV-32186",
+        "title": "Unexpected Result by join_cache_bka",
+        "created_at": "16/09/2023",
+        "state": "confirmed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MariaDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/46535",
+        "title": "runtime error: index out of range [0] with length 0",
+        "created_at": "31/08/2023",
+        "closed_at": "17/10/2023",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/46538",
+        "title": "ERROR 1690: overflows float",
+        "created_at": "31/08/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/46556",
+        "title": "ERROR 1105 (HY000): interface conversion",
+        "created_at": "31/08/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/46580",
+        "title": "Uncertain Results by MERGE_JOIN",
+        "created_at": "01/09/2023",
+        "closed_at": "19/09/2023",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/46598",
+        "title": "Error For MPP Stream",
+        "created_at": "01/09/2023",
+        "closed_at": "20/10/2023",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/46599",
+        "title": "Unexpected Results in TiFlash",
+        "created_at": "01/09/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/46601",
+        "title": "Unexpected Results in TiFlash 2",
+        "created_at": "01/09/2023",
+        "closed_at": "21/09/2023",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/47019",
+        "title": "Unexpected Results by the hint USE_INDEX in TiFlash",
+        "created_at": "17/09/2023",
+        "closed_at": "09/10/2023",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/47020",
+        "title": "Unexpected Result by BROADCAST_JOIN in TiFlash",
+        "created_at": "17/09/2023",
+        "closed_at": "09/10/2023",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/47286",
+        "title": "Unexpected Result in TiFlash 3",
+        "created_at": "26/09/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/47345",
+        "title": "Unexpected Result by MERGE_JOIN",
+        "created_at": "28/09/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/47346",
+        "title": "ERROR 1105 encoding failed",
+        "created_at": "28/09/2023",
+        "closed_at": "23/10/2023",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/47347",
+        "title": "Unexpected Error Lost Connection",
+        "created_at": "28/09/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/47348",
+        "title": "Unexpected Error Overflow",
+        "created_at": "28/09/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/110409",
+        "title": "Integer Overflow with Index Hints",
+        "created_at": "12/09/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/111473",
+        "title": "Unexpected Error: overflow during Encode",
+        "created_at": "29/09/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/111474",
+        "title": "Unexpected Error for ascii()",
+        "created_at": "29/09/2023",
+        "closed_at": "01/10/2023",
         "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
