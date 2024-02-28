@@ -101,7 +101,7 @@ nav_order: 2
 </div>
 
 <div class="container">
-	<h2>Database Management Systems (122 bugs)</h2>
+	<h2>Database Management Systems (131 bugs)</h2>
 	<h3>CockroachDB (28 bugs)</h3>
 		<details>
 			<summary>sql: support SCRUB on temp tables</summary>
@@ -253,7 +253,7 @@ nav_order: 2
 			<summary>Unexpected Result by join_cache_bka</summary>
 			Link: <a href="https://jira.mariadb.org/browse/MDEV-32186">https://jira.mariadb.org/browse/MDEV-32186</a> <br />
 		</details>
-	<h3>MySQL (9 bugs)</h3>
+	<h3>MySQL (13 bugs)</h3>
 		<details>
 			<summary>Suspicious Estimated Rows</summary>
 			Link: <a href="https://bugs.mysql.com/bug.php?id=108833">https://bugs.mysql.com/bug.php?id=108833</a> <br />
@@ -289,6 +289,22 @@ nav_order: 2
 		<details>
 			<summary>Unexpected Result by NO_BNL</summary>
 			Link: <a href="https://bugs.mysql.com/bug.php?id=112296">https://bugs.mysql.com/bug.php?id=112296</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result for an Index</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=113302">https://bugs.mysql.com/bug.php?id=113302</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result for LEAST function</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=113304">https://bugs.mysql.com/bug.php?id=113304</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result for ENGINE HEAP</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=113313">https://bugs.mysql.com/bug.php?id=113313</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by IF</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=113317">https://bugs.mysql.com/bug.php?id=113317</a> <br />
 		</details>
 	<h3>SQLite (28 bugs)</h3>
 		<details>
@@ -403,7 +419,7 @@ nav_order: 2
 			<summary>Assertion `pRec->nField>0 && pRec->nField<=pIdx->nSampleCol' failed.</summary>
 			Link: <a href="https://sqlite.org/forum/forumpost/3607259d3c">https://sqlite.org/forum/forumpost/3607259d3c</a> <br />
 		</details>
-	<h3>TiDB (48 bugs)</h3>
+	<h3>TiDB (53 bugs)</h3>
 		<details>
 			<summary>incorrect unresolved column when using natural join</summary>
 			Link: <a href="https://github.com/pingcap/tidb/issues/35522">https://github.com/pingcap/tidb/issues/35522</a> <br />
@@ -595,5 +611,25 @@ nav_order: 2
 		<details>
 			<summary>Unexpected Error Overflow</summary>
 			Link: <a href="https://github.com/pingcap/tidb/issues/47348">https://github.com/pingcap/tidb/issues/47348</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by REGEXP</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/49107">https://github.com/pingcap/tidb/issues/49107</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by NATURAL RIGHT JOIN</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/49108">https://github.com/pingcap/tidb/issues/49108</a> <br />
+		</details>
+		<details>
+			<summary> runtime error: index out of range [320] with length 320</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/49109">https://github.com/pingcap/tidb/issues/49109</a> <br />
+		</details>
+		<details>
+			<summary>errors in results with 4 cartesian products + only true filter</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/49110">https://github.com/pingcap/tidb/issues/49110</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by FIELD Function</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/49131">https://github.com/pingcap/tidb/issues/49131</a> <br />
 		</details>
 </div>

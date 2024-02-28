@@ -1150,5 +1150,86 @@
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "CockroachDB"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=113302",
+        "title": "Unexpected Result for an Index",
+        "created_at": "01/12/2023",
+        "state": "verified",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=113304",
+        "title": "Unexpected Result for LEAST function",
+        "created_at": "01/12/2023",
+        "state": "verified",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=113313",
+        "title": "Unexpected Result for ENGINE HEAP",
+        "created_at": "03/12/2023",
+        "state": "verified",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=113317",
+        "title": "Unexpected Result by IF",
+        "created_at": "04/12/2023",
+        "state": "verified",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/49107",
+        "title": "Unexpected Result by REGEXP",
+        "created_at": "02/12/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/49108",
+        "title": "Unexpected Result by NATURAL RIGHT JOIN",
+        "created_at": "03/12/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/49109",
+        "title": " runtime error: index out of range [320] with length 320",
+        "created_at": "03/12/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/49110",
+        "title": "errors in results with 4 cartesian products + only true filter",
+        "created_at": "03/12/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/49131",
+        "title": "Unexpected Result by FIELD Function",
+        "created_at": "04/12/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
     }
 ]
