@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Singapore
+subtitle: ETH Zurich
 
 profile:
   align: right
