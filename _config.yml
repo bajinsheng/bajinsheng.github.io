@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Jinsheng
 middle_name: 
 last_name: Ba
-email: bajinsheng@u.nus.edu
+email: jinsheng.ba@inf.ethz.ch
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A Ph.D. student in Security, Fuzzing, Vulnerability.
 footer_text: >
