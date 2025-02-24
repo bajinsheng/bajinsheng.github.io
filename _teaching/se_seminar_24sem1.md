@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-09-16
-sem: 2024-2025 Semester 1
+sem: 2024-2025 Sem 1
 inline: true
 ---
 
