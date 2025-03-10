@@ -5,4 +5,4 @@ place: Online
 inline: true
 ---
 
-Reviewer for ACM TRANSACTIONS ON DATABASE SYSTEMS.
+Reviewer for ACM Transactions on Database Systems (TODS).
