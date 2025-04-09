@@ -94,6 +94,11 @@
           {% if entry.award -%}
             <div class="periodical">🏆<font color="#B509AC"><b>{{entry.award}}</b></font>🏆</div>
           {%- endif %}
+
+          <!-- Interview -->
+          {% if entry.interview -%}
+            <div class="periodical">🗣️<font color="#B509AC"><a href="{{ entry.interview_url}}">{{ entry.interview }}</a></font>🗣️</div>
+          {%- endif %}
         
           <!-- Links/Buttons -->
           <div class="links">
