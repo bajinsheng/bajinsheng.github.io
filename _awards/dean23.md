@@ -5,4 +5,4 @@ place: Singapore, Singapore
 inline: true
 ---
 
-`Dean's Graduate Research Excellence Award` from [NUS School of Computing](https://www.comp.nus.edu.sg/programmes/pg/awards/deans/).
+`Dean's Graduate Research Excellence Award` from [NUS School of Computing](https://www.comp.nus.edu.sg/programmes/pg/awards/deans-research/).
