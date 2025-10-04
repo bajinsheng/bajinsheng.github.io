@@ -18,13 +18,15 @@ def format_date(date):
 repo_to_domain_mapping = {
     'duckdb' : 'dbms',
     'cockroach' : 'dbms',
-    'tidb' : 'dbms'
+    'tidb' : 'dbms',
+    'yugabyte-db': 'dbms',
 }
 
 repo_to_system_mapping = {
     'duckdb' : 'DuckDB',
     'cockroach' : 'CockroachDB',
-    'tidb' : 'TiDB'
+    'tidb' : 'TiDB',
+    'yugabyte-db': 'YugabyteDB',
 }
 
 for entry in parsed_content:

@@ -1231,5 +1231,265 @@
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/145108",
+        "dbms": "CockroachDB",
+        "title": "Unexpected -0.0",
+        "created_at": "24/04/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/148279",
+        "dbms": "CockroachDB",
+        "title": "Unexpected Result of a complex expression",
+        "created_at": "13/06/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/145888",
+        "dbms": "CockroachDB",
+        "title": "runtime error: index out of range in SPLIT_PART()",
+        "created_at": "01/05/2025",
+        "closed_at": "07/05/2025",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/146065",
+        "dbms": "CockroachDB",
+        "title": "Crash of Truncate",
+        "created_at": "05/05/2025",
+        "closed_at": "07/05/2025",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/60586",
+        "dbms": "TiDB",
+        "title": "Unexpected Result by NOT LIKE and BINARY",
+        "created_at": "15/04/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/60624",
+        "dbms": "TiDB",
+        "title": "Unexpected Result by DATE_FORMAT function",
+        "created_at": "17/04/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/60630",
+        "dbms": "TiDB",
+        "title": "Unexpected Results by CAST",
+        "created_at": "17/04/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/60664",
+        "dbms": "TiDB",
+        "title": "Unexpected Result byCRC32() and SIN() Functions",
+        "created_at": "18/04/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/60674",
+        "dbms": "TiDB",
+        "title": "Unexpected Result",
+        "created_at": "19/04/2025",
+        "closed_at": "01/09/2025",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/60841",
+        "dbms": "TiDB",
+        "title": "Inconsistent Function EXP in TiDB and TiKV",
+        "created_at": "25/04/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/60958",
+        "dbms": "TiDB",
+        "title": "Unexpected Result for NATURAL JOIN in TiFlash",
+        "created_at": "01/05/2025",
+        "closed_at": "06/05/2025",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/60960",
+        "dbms": "TiDB",
+        "title": "Unexpected Result for RIGHT() function in MPP Execution",
+        "created_at": "01/05/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/61664",
+        "dbms": "TiDB",
+        "title": "Unexpected Result in Windows Function inTiFlash",
+        "created_at": "11/06/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/61683",
+        "dbms": "TiDB",
+        "title": "Runtime Error: index out of range",
+        "created_at": "11/06/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/61684",
+        "dbms": "TiDB",
+        "title": "Other error for mpp stream",
+        "created_at": "11/06/2025",
+        "closed_at": "13/06/2025",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/61694",
+        "dbms": "TiDB",
+        "title": "Error: Cannot find column",
+        "created_at": "12/06/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/61715",
+        "dbms": "TiDB",
+        "title": "Failed to build executor",
+        "created_at": "12/06/2025",
+        "closed_at": "24/07/2025",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/61735",
+        "dbms": "TiDB",
+        "title": "slice bounds out of range",
+        "created_at": "13/06/2025",
+        "closed_at": "03/07/2025",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/yugabyte/yugabyte-db/issues/26620",
+        "dbms": "YugabyteDB",
+        "title": "[YSQL] Unexpected truncated data returned by MAX()",
+        "created_at": "01/04/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "YugabyteDB"
+    },
+    {
+        "url": "https://github.com/yugabyte/yugabyte-db/issues/26717",
+        "dbms": "YugabyteDB",
+        "title": "[YSQL] Unexpected result by yb_enable_distinct_pushdown",
+        "created_at": "07/04/2025",
+        "closed_at": "14/04/2025",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "YugabyteDB"
+    },
+    {
+        "url": "https://github.com/yugabyte/yugabyte-db/issues/27031",
+        "dbms": "YugabyteDB",
+        "title": "[YSQL] Unexpected Result in distributed execution",
+        "created_at": "02/05/2025",
+        "closed_at": "17/06/2025",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "YugabyteDB"
+    },
+    {
+        "url": "https://github.com/yugabyte/yugabyte-db/issues/26753",
+        "dbms": "YugabyteDB",
+        "title": "[YSQL] Unexpected error: OBJECT_NOT_FOUND when trying to reference temporary table in permanent table",
+        "created_at": "09/04/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "YugabyteDB"
+    },
+    {
+        "url": "https://github.com/yugabyte/yugabyte-db/issues/27009",
+        "dbms": "YugabyteDB",
+        "title": "[YSQL] Unexpected Crash on regexp_count()",
+        "created_at": "01/05/2025",
+        "closed_at": "02/07/2025",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "YugabyteDB"
+    },
+    {
+        "url": "https://github.com/yugabyte/yugabyte-db/issues/27029",
+        "dbms": "YugabyteDB",
+        "title": "[YSQL] Crash due to multiple-table joining",
+        "created_at": "02/05/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "YugabyteDB"
+    },
+    {
+        "url": "https://github.com/yugabyte/yugabyte-db/issues/27059",
+        "dbms": "YugabyteDB",
+        "title": "[YSQL] Unexpected error under disabling db_catalog_version_mode",
+        "created_at": "05/05/2025",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "YugabyteDB"
     }
 ]

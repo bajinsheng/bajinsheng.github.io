@@ -101,8 +101,24 @@ nav_order: 2
 </div>
 
 <div class="container">
-	<h2>Database Management Systems (131 bugs)</h2>
-	<h3>CockroachDB (28 bugs)</h3>
+	<h2>Database Management Systems (178 bugs)</h2>
+	<h3>CockroachDB (35 bugs)</h3>
+		<details>
+			<summary>Unexpected -0.0</summary>
+			Link: <a href="https://github.com/cockroachdb/cockroach/issues/145108">https://github.com/cockroachdb/cockroach/issues/145108</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result of a complex expression</summary>
+			Link: <a href="https://github.com/cockroachdb/cockroach/issues/148279">https://github.com/cockroachdb/cockroach/issues/148279</a> <br />
+		</details>
+		<details>
+			<summary>runtime error: index out of range in SPLIT_PART()</summary>
+			Link: <a href="https://github.com/cockroachdb/cockroach/issues/145888">https://github.com/cockroachdb/cockroach/issues/145888</a> <br />
+		</details>
+		<details>
+			<summary>Crash of Truncate</summary>
+			Link: <a href="https://github.com/cockroachdb/cockroach/issues/146065">https://github.com/cockroachdb/cockroach/issues/146065</a> <br />
+		</details>
 		<details>
 			<summary>sql: support SCRUB on temp tables</summary>
 			Link: <a href="https://github.com/cockroachdb/cockroach/issues/83770">https://github.com/cockroachdb/cockroach/issues/83770</a> <br />
@@ -215,12 +231,24 @@ nav_order: 2
 			<summary>Unexpected Error for ascii()</summary>
 			Link: <a href="https://github.com/cockroachdb/cockroach/issues/111474">https://github.com/cockroachdb/cockroach/issues/111474</a> <br />
 		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 2</summary>
+			Link: <a href="https://github.com/cockroachdb/cockroach/issues/134803">https://github.com/cockroachdb/cockroach/issues/134803</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 7</summary>
+			Link: <a href="https://github.com/cockroachdb/cockroach/issues/135001">https://github.com/cockroachdb/cockroach/issues/135001</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-DS Query 63</summary>
+			Link: <a href="https://github.com/cockroachdb/cockroach/issues/136350">https://github.com/cockroachdb/cockroach/issues/136350</a> <br />
+		</details>
 	<h3>DuckDB (1 bugs)</h3>
 		<details>
 			<summary>Crash When Creating Index</summary>
 			Link: <a href="https://github.com/duckdb/duckdb/issues/4976">https://github.com/duckdb/duckdb/issues/4976</a> <br />
 		</details>
-	<h3>MariaDB (8 bugs)</h3>
+	<h3>MariaDB (12 bugs)</h3>
 		<details>
 			<summary>Unexpected Result by not_null_range_scan</summary>
 			Link: <a href="https://jira.mariadb.org/browse/MDEV-32076">https://jira.mariadb.org/browse/MDEV-32076</a> <br />
@@ -253,7 +281,23 @@ nav_order: 2
 			<summary>Unexpected Result by join_cache_bka</summary>
 			Link: <a href="https://jira.mariadb.org/browse/MDEV-32186">https://jira.mariadb.org/browse/MDEV-32186</a> <br />
 		</details>
-	<h3>MySQL (13 bugs)</h3>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 2</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-35280">https://jira.mariadb.org/browse/MDEV-35280</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 4</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-35332">https://jira.mariadb.org/browse/MDEV-35332</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 7</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-35331">https://jira.mariadb.org/browse/MDEV-35331</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 18</summary>
+			Link: <a href="https://jira.mariadb.org/browse/MDEV-35333">https://jira.mariadb.org/browse/MDEV-35333</a> <br />
+		</details>
+	<h3>MySQL (22 bugs)</h3>
 		<details>
 			<summary>Suspicious Estimated Rows</summary>
 			Link: <a href="https://bugs.mysql.com/bug.php?id=108833">https://bugs.mysql.com/bug.php?id=108833</a> <br />
@@ -305,6 +349,42 @@ nav_order: 2
 		<details>
 			<summary>Unexpected Result by IF</summary>
 			Link: <a href="https://bugs.mysql.com/bug.php?id=113317">https://bugs.mysql.com/bug.php?id=113317</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 8</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=116456">https://bugs.mysql.com/bug.php?id=116456</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 11</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=116484">https://bugs.mysql.com/bug.php?id=116484</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 16</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=116309">https://bugs.mysql.com/bug.php?id=116309</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 16</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=116534">https://bugs.mysql.com/bug.php?id=116534</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-DS Query 7</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=116773">https://bugs.mysql.com/bug.php?id=116773</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-DS Query 15</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=116774">https://bugs.mysql.com/bug.php?id=116774</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-DS Query 16</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=116775">https://bugs.mysql.com/bug.php?id=116775</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-DS Query 19</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=116776">https://bugs.mysql.com/bug.php?id=116776</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-DS Query 47</summary>
+			Link: <a href="https://bugs.mysql.com/bug.php?id=116777">https://bugs.mysql.com/bug.php?id=116777</a> <br />
 		</details>
 	<h3>SQLite (28 bugs)</h3>
 		<details>
@@ -419,7 +499,63 @@ nav_order: 2
 			<summary>Assertion `pRec->nField>0 && pRec->nField<=pIdx->nSampleCol' failed.</summary>
 			Link: <a href="https://sqlite.org/forum/forumpost/3607259d3c">https://sqlite.org/forum/forumpost/3607259d3c</a> <br />
 		</details>
-	<h3>TiDB (53 bugs)</h3>
+	<h3>TiDB (67 bugs)</h3>
+		<details>
+			<summary>Unexpected Result by NOT LIKE and BINARY</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/60586">https://github.com/pingcap/tidb/issues/60586</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result by DATE_FORMAT function</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/60624">https://github.com/pingcap/tidb/issues/60624</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Results by CAST</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/60630">https://github.com/pingcap/tidb/issues/60630</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result byCRC32() and SIN() Functions</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/60664">https://github.com/pingcap/tidb/issues/60664</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/60674">https://github.com/pingcap/tidb/issues/60674</a> <br />
+		</details>
+		<details>
+			<summary>Inconsistent Function EXP in TiDB and TiKV</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/60841">https://github.com/pingcap/tidb/issues/60841</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result for NATURAL JOIN in TiFlash</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/60958">https://github.com/pingcap/tidb/issues/60958</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result for RIGHT() function in MPP Execution</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/60960">https://github.com/pingcap/tidb/issues/60960</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Result in Windows Function inTiFlash</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/61664">https://github.com/pingcap/tidb/issues/61664</a> <br />
+		</details>
+		<details>
+			<summary>Runtime Error: index out of range</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/61683">https://github.com/pingcap/tidb/issues/61683</a> <br />
+		</details>
+		<details>
+			<summary>Other error for mpp stream</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/61684">https://github.com/pingcap/tidb/issues/61684</a> <br />
+		</details>
+		<details>
+			<summary>Error: Cannot find column</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/61694">https://github.com/pingcap/tidb/issues/61694</a> <br />
+		</details>
+		<details>
+			<summary>Failed to build executor</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/61715">https://github.com/pingcap/tidb/issues/61715</a> <br />
+		</details>
+		<details>
+			<summary>slice bounds out of range</summary>
+			Link: <a href="https://github.com/pingcap/tidb/issues/61735">https://github.com/pingcap/tidb/issues/61735</a> <br />
+		</details>
 		<details>
 			<summary>incorrect unresolved column when using natural join</summary>
 			Link: <a href="https://github.com/pingcap/tidb/issues/35522">https://github.com/pingcap/tidb/issues/35522</a> <br />
@@ -631,5 +767,59 @@ nav_order: 2
 		<details>
 			<summary>Unexpected Result by FIELD Function</summary>
 			Link: <a href="https://github.com/pingcap/tidb/issues/49131">https://github.com/pingcap/tidb/issues/49131</a> <br />
+		</details>
+	<h3>PostgreSQL (6 bugs)</h3>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 2</summary>
+			Link: <a href="https://www.postgresql.org/message-id/SEZPR06MB6494BD3DDF5B03700032C2C98A782%40SEZPR06MB6494.apcprd06.prod.outlook.com">https://www.postgresql.org/message-id/SEZPR06MB6494BD3DDF5B03700032C2C98A782%40SEZPR06MB6494.apcprd06.prod.outlook.com</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 2</summary>
+			Link: <a href="https://www.postgresql.org/message-id/SEZPR06MB649480C104C2479D0F0D8ACD8A512%40SEZPR06MB6494.apcprd06.prod.outlook.com">https://www.postgresql.org/message-id/SEZPR06MB649480C104C2479D0F0D8ACD8A512%40SEZPR06MB6494.apcprd06.prod.outlook.com</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-H Query 10</summary>
+			Link: <a href="https://www.postgresql.org/message-id/SEZPR06MB64943EFCD432E8069D610E458A4E2%40SEZPR06MB6494.apcprd06.prod.outlook.com">https://www.postgresql.org/message-id/SEZPR06MB64943EFCD432E8069D610E458A4E2%40SEZPR06MB6494.apcprd06.prod.outlook.com</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-DS Query 4</summary>
+			Link: <a href="https://www.postgresql.org/message-id/SEZPR06MB6494F6A2837995BDD4E0BF9A8A5F2%40SEZPR06MB6494.apcprd06.prod.outlook.com">https://www.postgresql.org/message-id/SEZPR06MB6494F6A2837995BDD4E0BF9A8A5F2%40SEZPR06MB6494.apcprd06.prod.outlook.com</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-DS Query 60</summary>
+			Link: <a href="https://www.postgresql.org/message-id/SEZPR06MB649422CDEBEBBA3915154EE58A232%40SEZPR06MB6494.apcprd06.prod.outlook.com">https://www.postgresql.org/message-id/SEZPR06MB649422CDEBEBBA3915154EE58A232%40SEZPR06MB6494.apcprd06.prod.outlook.com</a> <br />
+		</details>
+		<details>
+			<summary>Unexpected Performance on TPC-DS Query 95</summary>
+			Link: <a href="https://www.postgresql.org/message-id/SEZPR06MB649446E1B2745EEF5B49BA238A2E2%40SEZPR06MB6494.apcprd06.prod.outlook.com">https://www.postgresql.org/message-id/SEZPR06MB649446E1B2745EEF5B49BA238A2E2%40SEZPR06MB6494.apcprd06.prod.outlook.com</a> <br />
+		</details>
+	<h3>YugabyteDB (7 bugs)</h3>
+		<details>
+			<summary>[YSQL] Unexpected truncated data returned by MAX()</summary>
+			Link: <a href="https://github.com/yugabyte/yugabyte-db/issues/26620">https://github.com/yugabyte/yugabyte-db/issues/26620</a> <br />
+		</details>
+		<details>
+			<summary>[YSQL] Unexpected result by yb_enable_distinct_pushdown</summary>
+			Link: <a href="https://github.com/yugabyte/yugabyte-db/issues/26717">https://github.com/yugabyte/yugabyte-db/issues/26717</a> <br />
+		</details>
+		<details>
+			<summary>[YSQL] Unexpected Result in distributed execution</summary>
+			Link: <a href="https://github.com/yugabyte/yugabyte-db/issues/27031">https://github.com/yugabyte/yugabyte-db/issues/27031</a> <br />
+		</details>
+		<details>
+			<summary>[YSQL] Unexpected error: OBJECT_NOT_FOUND when trying to reference temporary table in permanent table</summary>
+			Link: <a href="https://github.com/yugabyte/yugabyte-db/issues/26753">https://github.com/yugabyte/yugabyte-db/issues/26753</a> <br />
+		</details>
+		<details>
+			<summary>[YSQL] Unexpected Crash on regexp_count()</summary>
+			Link: <a href="https://github.com/yugabyte/yugabyte-db/issues/27009">https://github.com/yugabyte/yugabyte-db/issues/27009</a> <br />
+		</details>
+		<details>
+			<summary>[YSQL] Crash due to multiple-table joining</summary>
+			Link: <a href="https://github.com/yugabyte/yugabyte-db/issues/27029">https://github.com/yugabyte/yugabyte-db/issues/27029</a> <br />
+		</details>
+		<details>
+			<summary>[YSQL] Unexpected error under disabling db_catalog_version_mode</summary>
+			Link: <a href="https://github.com/yugabyte/yugabyte-db/issues/27059">https://github.com/yugabyte/yugabyte-db/issues/27059</a> <br />
 		</details>
 </div>
